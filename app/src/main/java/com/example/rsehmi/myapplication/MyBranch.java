@@ -6,6 +6,5 @@ public class MyBranch {
     void doSomething() {
         System.out.println("abc");
         Log.d("Asd", "doSomething: hello Woel");
-
     }
 }
