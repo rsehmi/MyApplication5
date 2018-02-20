@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
 
 
-        Log.d(TAG, "onCreate: This is new Line");
+        Log.d("addition", "onCreate: This is new Line");
     
     }
 }
