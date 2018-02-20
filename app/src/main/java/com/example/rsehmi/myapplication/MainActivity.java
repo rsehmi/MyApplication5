@@ -2,6 +2,7 @@ package com.example.rsehmi.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
 
 
+        Log.d(TAG, "onCreate: This is new Line");
+    
     }
 }
