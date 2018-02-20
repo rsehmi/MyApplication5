@@ -8,7 +8,8 @@ public class MyBranch {
         Log.d("Asd", "doSomething: hello Woel");
     }
 
-    void helloWorld() {
+    void helloWorldNew() {
         Log.d("ASDF", "helloWorld: LOL");
+        System.out.println("abc");
     }
 }
