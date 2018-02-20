@@ -7,4 +7,8 @@ public class MyBranch {
         System.out.println("abc");
         Log.d("Asd", "doSomething: hello Woel");
     }
+
+    void helloWorld() {
+        Log.d("ASDF", "helloWorld: LOL");
+    }
 }
